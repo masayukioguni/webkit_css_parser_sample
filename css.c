@@ -349,7 +349,7 @@ typedef union YYSTYPE
     float val;
 }
 /* Line 193 of yacc.c.  */
-#line 353 "a.tab.c"
+#line 353 "css.tab.c"
 	YYSTYPE;
 # define yystype YYSTYPE /* obsolescent; will be withdrawn */
 # define YYSTYPE_IS_DECLARED 1
@@ -375,7 +375,7 @@ static int cssyylex(YYSTYPE* yylval, void* parser)
 
 
 /* Line 216 of yacc.c.  */
-#line 379 "a.tab.c"
+#line 379 "css.tab.c"
 
 #ifdef short
 # undef short
@@ -4298,7 +4298,7 @@ yyreduce:
 
 
 /* Line 1267 of yacc.c.  */
-#line 4302 "a.tab.c"
+#line 4302 "css.tab.c"
       default: break;
     }
   YY_SYMBOL_PRINT ("-> $$ =", yyr1[yyn], &yyval, &yyloc);

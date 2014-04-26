@@ -44,7 +44,7 @@ close HEADER;
 
 unlink($fileBase . ".tab.h");
 
-open CPP, ">" . $fileBase . ".cpp" or die;
+open CPP, ">" . $fileBase . ".c" or die;
 open GENSRC, "<" . $fileBase . ".tab.c" or die;
 while (<GENSRC>) {
     print CPP;
